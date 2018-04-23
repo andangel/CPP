@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二维数组的定义", "二维数组的定义\二维数组的定义.vcxproj", "{338AE5EC-6AD5-46FD-AA82-4CBDEC237BBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计算多维数组长度", "计算多维数组长度\计算多维数组长度.vcxproj", "{D20A06CE-2321-49CB-85DF-8B40E5504520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{338AE5EC-6AD5-46FD-AA82-4CBDEC237BBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{338AE5EC-6AD5-46FD-AA82-4CBDEC237BBE}.Debug|Win32.Build.0 = Debug|Win32
+		{338AE5EC-6AD5-46FD-AA82-4CBDEC237BBE}.Release|Win32.ActiveCfg = Release|Win32
+		{338AE5EC-6AD5-46FD-AA82-4CBDEC237BBE}.Release|Win32.Build.0 = Release|Win32
+		{D20A06CE-2321-49CB-85DF-8B40E5504520}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D20A06CE-2321-49CB-85DF-8B40E5504520}.Debug|Win32.Build.0 = Debug|Win32
+		{D20A06CE-2321-49CB-85DF-8B40E5504520}.Release|Win32.ActiveCfg = Release|Win32
+		{D20A06CE-2321-49CB-85DF-8B40E5504520}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
