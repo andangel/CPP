@@ -18,9 +18,10 @@ int main()
 	//cout << "p[1]的值是:" << p[1] << "\t" << "数组str[0]的值是:" << str[1] << endl;
 	for (size_t i = 0; i < length; i++)
 	{
-		cout << "指针变量p+"<<i<<"内的值:" << p+i << "\t" << "数组str["<<i<<"内存地址是:" << &str[i] << endl;
+		cout << "指针变量p[" << i << "]的值:" << p << "\t" << "数组str[" << i << "]内存地址是:" << &str[i] << endl;
 		p[i] = i+1;
-		cout << "p["<< i <<"]的值是:" << p[i] << "\t" << "数组str["<< i <<"]的值是:" << str[i] << endl;
+		//*(p + i)=i;
+		cout << "*p["<< i <<"]的值是:" << p[i] << "\t" << "数组str["<< i <<"]的值是:" << str[i] << endl;
 	}
     return 0;
 }
