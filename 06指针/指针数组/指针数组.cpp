@@ -31,6 +31,7 @@ int main(int argc,char *argv[])
 	//char *str2 = "Word";
 	//char *str3 = "New";
 	char *p[] = { "Hello","Word","C 语言" };//定义指针数组并初始化常量字符串
+	//	p里面存储的是三个字符串的首元素地址
 	int length = sizeof(p) / sizeof(*p);
 	cout <<"p的数据类型是:"<< typeid(p).name() << endl;
 	print_array(p, length);
