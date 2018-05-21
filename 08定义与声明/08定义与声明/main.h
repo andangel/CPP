@@ -4,6 +4,7 @@
 #include <typeinfo>
 #include <stdlib.h>
 #include "OutputString.h"
+#include"OutputStrings.h"
 
 
 using namespace std;
