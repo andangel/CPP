@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "指针定义", "指针定义\指针定义.vcxproj", "{E0F8A3D3-91A7-46C5-B2D7-C4851AD27987}"
 EndProject
@@ -28,8 +28,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数值传递", "函数值传递\函数值传递.vcxproj", "{D7B9417F-71E7-4CE6-9FD7-6BE0A2C7C02E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "形参中的数组不是数组而是指针变量", "形参中的数组不是数组而是指针变量\形参中的数组不是数组而是指针变量.vcxproj", "{3DFC04FF-6C3A-43C4-8C88-A4BA5C9A9B6C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test1", "test1\test1.vcxproj", "{B706A558-296D-47A8-AC38-AB4EE3EF0166}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符数组与字符指针区别", "字符数组与字符指针区别\字符数组与字符指针区别.vcxproj", "{01C6E0A8-96BA-490C-BB14-A08BF40FF407}"
 EndProject
@@ -201,18 +199,6 @@ Global
 		{3DFC04FF-6C3A-43C4-8C88-A4BA5C9A9B6C}.Release|Win32.Build.0 = Release|Win32
 		{3DFC04FF-6C3A-43C4-8C88-A4BA5C9A9B6C}.Release|x64.ActiveCfg = Release|x64
 		{3DFC04FF-6C3A-43C4-8C88-A4BA5C9A9B6C}.Release|x64.Build.0 = Release|x64
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|Win32.ActiveCfg = Debug|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|Win32.Build.0 = Debug|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|x64.ActiveCfg = Debug|x64
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Debug|x64.Build.0 = Debug|x64
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|Win32.ActiveCfg = Release|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|Win32.Build.0 = Release|Win32
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|x64.ActiveCfg = Release|x64
-		{B706A558-296D-47A8-AC38-AB4EE3EF0166}.Release|x64.Build.0 = Release|x64
 		{01C6E0A8-96BA-490C-BB14-A08BF40FF407}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{01C6E0A8-96BA-490C-BB14-A08BF40FF407}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{01C6E0A8-96BA-490C-BB14-A08BF40FF407}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -252,5 +238,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A4593D-8C4D-48B8-8DE5-C27A05EC81B7}
 	EndGlobalSection
 EndGlobal
